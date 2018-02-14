@@ -1,0 +1,10 @@
+<h1>Use FrontComponent to show thumbnails of the 10 newest media files</h1>
+<div *ngFor="let media of mediaFiles">
+  <img [src]="media.thumbnail">
+</div>>
+
+<h1>Use the pipe</h1>
+
+<div *ngFor="let file of mediaFiles">
+  <img [alt]="file?.title" [src]="'http://media.mw.metropolia.fi/wbma/uploads/' + (file?.filename | thumbnail: 'small')">
+</div>

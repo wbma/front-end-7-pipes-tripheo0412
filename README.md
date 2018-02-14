@@ -1,0 +1,8 @@
+# PipeStarter
+
+Starter code for pipe task.
+
+---
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+# front-end-7-pipes-tripheo0412
